@@ -8,9 +8,9 @@ My modest contribution to the IceCube Competition, hosted on Kaggle back in earl
 
 Before the competition, the best performing methods were Graph Neural Networks.
 
-To practice my DS skills, I decided to implement the GraphNet architecture from scratch using **Pytorch** and **Torch-geometric**, using the official paper (https://arxiv.org/abs/2210.12194). At the time, this model had the best performing known architecture (scored MAE=1.018).
+To practice my DS skills, I decided to implement the DynEdge architecture from scratch using **Pytorch** and **Torch-geometric**, using the official paper (https://arxiv.org/abs/2210.12194). At the time, this model had the best performing known architecture (scored MAE=1.018).
 
-The official implementation of the model (Graphnet) can be found [here](https://github.com/graphnet-team/graphnet). It is pretty complex.
+The official implementation of the model (GraphNet) can be found [here](https://github.com/graphnet-team/graphnet). It is pretty complex.
 
 My implementation is slightly simpler and scores a decent MAE=1.07 while being trained on 10% of the dataset for 1 epoch, due to my limited resources.
 
